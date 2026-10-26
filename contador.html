@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contador de Clicks</title>
+</head>
+<body>
+  <h1>Contador de Clicks</h1>
+  <button id="btn">Haz clic</button>
+  <p id="contador">0</p>
+
+  <script>
+    let contador = 0;
+    document.getElementById("btn").addEventListener("click", () => {
+      contador++;
+      document.getElementById("contador").innerText = contador;
+    });
+  </script>
+</body>
+</html>
