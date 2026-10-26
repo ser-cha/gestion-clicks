@@ -1,0 +1,2 @@
+# gestion-clicks
+Proyecto coperativo
