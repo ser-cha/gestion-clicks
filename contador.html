@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Contador de Clicks</title>
-</head>
-<body>
-  <h1>Contador de Clicks</h1>
-  <button id="btn">Haz clic</button>
-  <p id="contador">0</p>
 
-  <script>
+<head>
+<meta charset="UTF-8">
+<title>Contador de Clicks</title>
+</head>
+
+<style>
+/* Dev D crear estilo para el contador */
+</style>
+
+<body>
+
+<h1>Contador cliks. Grupo (Sergio, Mauricio, Mario, Daniel)</h1>
+
+<button id="btn">Haz clic</button>
+<p>Clicks: <span id="contador">0</span></p>
+
+<script>
     let contador = 0;
-    document.getElementById("btn").addEventListener("click", () => {
-      contador++;
-      document.getElementById("contador").innerText = contador;
+    const contadorDisplay = document.getElementById("contador");
+    const botonContar = document.getElementById("btn");
+
+    botonContar.addEventListener("click", () => {
+        contador++;
+        contadorDisplay.innerText = contador;
+
+        // Dev C (Hora) añadirá su código aquí dentro
     });
-  </script>
+
+    // Dev B (Reiniciar) añadirá su script aquí
+</script>
+
 </body>
+
 </html>
