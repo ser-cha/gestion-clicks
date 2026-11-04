@@ -4,5 +4,5 @@ Proyecto coperativo
 
 
 
-\#  \*\*Dani\*\*-\*Desarrollador C\* - hora-del-click
+# **Dani** - *Desarrollador C* - hora-del-click
 
