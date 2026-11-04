@@ -83,6 +83,9 @@ button:active {
 <h1>Contador cliks. Grupo (Sergio, Mauricio, Mario, Daniel)</h1>
 
 <button id="btn">Haz clic</button>
+
+<button id="reset">Reiniciar</button>
+
 <p>Clicks: <span id="contador">0</span></p>
 
 <script>
@@ -98,6 +101,12 @@ button:active {
     });
 
     // Dev B (Reiniciar) añadirá su script aquí
+const botonReset = document.getElementById("reset");
+
+botonReset.addEventListener("click", () => {
+    contador = 0;
+    contadorDisplay.innerText = contador;
+});
 </script>
 
 </body>
