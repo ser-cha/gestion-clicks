@@ -1,7 +1,18 @@
-# gestion-clicks
+# Gestion-Clicks
 
 Proyecto cooperativo
 
-# **Dani** - *Desarrollador C* - hora-del-click
 # **Sergio Chaustre** - *Desarrollador A* - main
+
+
+
+# **Mauricio** - *Desarrollador B* - reiniciar-clicks
+
+
+
+# **Dani** - *Desarrollador C* - hora-del-click
+
+
+
 # **Mario Soler** - *Desarrollador D* - disenio
+
