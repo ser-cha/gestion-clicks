@@ -1,0 +1,20 @@
+<P>Clicks: <span id="contador">0</span></p>
+ <p id="hora"></p>
+ 
+ <script>
+ 
+	let contador = 0;
+	const contadorDisplay = document.getElementById"contador");
+	const botonContar = document.getElementById("btn");
+	
+	botonContar.addEventListener("click", () => {
+		contador++;
+		contadorDisplay.innerText = contador;
+		document.getElementById("btn").addEventListener("click", () => {
+	
+	const ahora = new Date();
+	document.getElementById("hora").innerText = "Último clic: " + ahora.toLocaleTimeString();
+});
+	});
+</script>
+

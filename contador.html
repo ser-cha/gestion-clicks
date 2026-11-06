@@ -87,6 +87,7 @@ button:active {
 <button id="reset">Reiniciar</button>
 
 <p>Clicks: <span id="contador">0</span></p>
+<p id="hora">Último clic: Ninguno</p>
 
 <script>
     let contador = 0;
@@ -98,6 +99,9 @@ button:active {
         contadorDisplay.innerText = contador;
 
         // Dev C (Hora) añadirá su código aquí dentro
+		const ahora = new Date();
+		document.getElementById("hora").innerText =
+			"Último clic: " + ahora.toLocaleTimeString();
     });
 
     // Dev B (Reiniciar) añadirá su script aquí
